@@ -53,3 +53,23 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  /* Exemple : si tu as une image ou une carte de visite */
+  .carte {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  /* Ajoute d’autres ajustements ici selon ton contenu */
+}
